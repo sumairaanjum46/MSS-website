@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+     <link/>
+     <link rel="stylesheet" href="styles.css"><link/>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+   
+      <script src="script.js" defer></script>
+    
+    
+</head>
+<body>
+    <!-- <header> -->
+        
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-primary" data-bs-theme="dark" >
+               
+                
+                    <div class="container-fluid" class="navbar">
+                        <a class="navbar-brand" href="#">
+                                <img src="msslogo1.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                            
+                              </a>
+                            
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#membership">Membership</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#events">Events</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#About" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#team">MSS Team</a></li>
+                                <li><a class="dropdown-item" href="#Events">Upcoming Events</a></li>
+                                <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+                                
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#Contact">Contact Us</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav> 
+
+             
+                
+        </div>
+        
+        
+
+    
+    <body>
+      <video autoplay muted loop id="bg-video">
+        <source src="Background.mp4.mp4" type="video/mp4">
+        <!-- You can add additional formats (e.g., .webm or .ogg) for cross-browser support -->
+        Your browser does not support the video tag.
+    </video>
+      <section id="hero">
+        <!-- <div class="video-background"> -->
+         
+        <!-- </div> -->
+        <div class="hero-content">
+          <h1>Welcome to the Microsoft Student Society!</h1>
+          <p>Connecting students to tech, innovation, and career opportunities.</p>
+          <button>Join Now</button>
+        </div>
+      </section>
+  
+      <section id="membership" class="membership-section">
+        <h2>Become a Member</h2>
+        
+        <!-- Word-by-word typing effect for the content -->
+        <div id="typing-container">
+          <p id="typing-text"></p>
+        </div>
+        
+        <h3>Why Join Us?</h3>
+        <ul>
+          <li>Exclusive access to events and workshops.</li>
+          <li>Networking with professionals and experts.</li>
+          <li>Opportunities for leadership and personal development.</li>
+          <li>Access to members-only content and resources.</li>
+        </ul>
+      
+        <!-- Membership Drive Link -->
+        <!-- <p>Ready to join? Click below to sign up for our upcoming membership drive:</p> -->
+        <a href="https://docs.google.com/forms/u/6/d/1mZ1-yunQInB0-Frbsu1mN3EE4iUXoTN-iZETTYi-sSk/edit?usp=drivesdk&chromeless=1" class="membership-drive-link">Join the Membership Drive</a>
+      
+        
+      </section>
+      <section id="events" class="events-section">
+        <h2 class="section-title">Our Past Events</h2>
+        
+        <div class="events-container">
+            <!-- Event 1 -->
+            <div class="event-item">
+                <div class="event-media">
+                    
+                   
+                    <video src="event1-video.mp4" class="event-video" autoplay muted loop></video>
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">Event Title 1</h3>
+                    <p class="event-description">Microsoft visit</p>
+                    <a href="#" class="event-link">View More</a>
+                </div>
+            </div>
+            
+            <!-- Event 2 -->
+            <div class="event-item">
+                <div class="event-media">
+                    
+                    <video src="event2-video.mp4" class="event-video" autoplay muted loop></video> 
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">Event Title 2</h3>
+                    <p class="event-description">Azure AI Day</p>
+                    <a href="#" class="event-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-item">
+                <div class="event-media">
+                
+                    <video src="event3-video.mp4" class="event-video" autoplay muted loop></video>
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">Event Title 3</h3>
+                    <p class="event-description">Git-101</p>
+                    <a href="#" class="event-link">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Team Section -->
+   <section id="team" class="team-section">
+    <h2 class="section-title">Meet the MSS Team</h2>
+    
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="Sufyaan.jpg" alt="Team Member 1" class="member-img">
+            </div>
+            <div class="team-details">
+                <h3 class="member-name">Mohammed Sufyaan Talish</h3>
+                <p class="member-role">Chief Cordinator</p>
+                <p class="member-about">Sufyaan is passionate about technology and community building. He strives to lead MSS Club to new heights by fostering collaboration among members.</p>
+                <a href="https://www.linkedin.com/in/mohd-sufyaan-talish/" target="_blank" class="linkedin-link">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="Affan.jpg" alt="Team Member 2" class="member-img">
+            </div>
+            <div class="team-details">
+                <h3 class="member-name">Affan Ahmed</h3>
+                <p class="member-role">Vice Chief Cordinator</p>
+                <p class="member-about">Affan is dedicated to innovation and leadership. He helps manage operations and organize key events for MSS Club.</p>
+                <a href="https://www.linkedin.com/in/affan-ahmed-b50bb125b/" target="_blank" class="linkedin-link">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="Mariam.jpg" alt="Team Member 3" class="member-img">
+            </div>
+            <div class="team-details">
+                <h3 class="member-name">Mariam Ali</h3>
+                <p class="member-role"> Principal Secretary</p>
+                <p class="member-about">Mariam, the Principal Secretary of MSS Club, is responsible for managing the club's finance. Mariam plays a crucial role in maintaining the club’s financial health and supporting its initiatives.</p>
+                <a href="https://www.linkedin.com/in/mariam-ali-7a7268225/" target="_blank" class="linkedin-link">LinkedIn</a>
+            </div>
+        </div>
+        <!-- Team member-4 -->
+        <div class="team-member">
+          <div class="team-photo">
+              <img src="Sum1.jpg" alt="Team Member 3" class="member-img">
+          </div>
+          <div class="team-details">
+              <h3 class="member-name">Sumaira Anjum</h3>
+              <p class="member-role"> Tech Lead</p>
+              <p class="member-about">Sumaira is the Tech Lead at MSS Club, guiding technical projects and mentoring members. With expertise in software development and a passion for innovation, Sumaira ensures the club stays ahead in tech while fostering a collaborative learning environment.</p>
+              <a href="https://www.linkedin.com/in/sumaira-anjum-908899241/" target="_blank" class="linkedin-link">LinkedIn</a>
+          </div>
+      </div>
+      <!-- Team member-5-->
+      <div class="team-member">
+        <div class="team-photo">
+            <img src="Amaan.jpg" alt="Team Member 3" class="member-img">
+        </div>
+        <div class="team-details">
+            <h3 class="member-name">Mohammed Amaan Khan</h3>
+            <p class="member-role"> Cheif Representative</p>
+            <p class="member-about">As the Chief Representative of MSS Club, Amaan manages all logistics for club events and activities. From coordinating with external partners to overseeing event setups, Amaan ensures everything runs smoothly, allowing the team to focus on what matters most.</p>
+            <a href="https://www.linkedin.com/in/mohammed-amaan-m-khan-7b8167215/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </div>
+    </div>
+
+    </div>
+</section>
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2 class="section-title">Gallery</h2>
+  
+  <div class="gallery-container">
+      <!-- Gallery Images -->
+      <div class="gallery-item">
+          <img src="image1.jpg" alt="Gallery Image 1" class="gallery-image">
+      </div>
+
+      <div class="gallery-item">
+          <img src="image2.jpg" alt="Gallery Image 2" class="gallery-image">
+      </div>
+
+      <div class="gallery-item">
+          <img src="image3.jpg" alt="Gallery Image 3" class="gallery-image">
+      </div>
+
+      <div class="gallery-item">
+          <img src="image4.jpg" alt="Gallery Image 4" class="gallery-image">
+      </div>
+
+      <div class="gallery-item">
+          <img src="image5.jpg" alt="Gallery Image 5" class="gallery-image">
+      </div>
+
+      <div class="gallery-item">
+          <img src="image6.jpg" alt="Gallery Image 6" class="gallery-image">
+      </div>
+      <div class="gallery-item">
+        <img src="image7.jpg" alt="Gallery Image 6" class="gallery-image">
+    </div>
+    <div class="gallery-item">
+      <img src="image8.jpg" alt="Gallery Image 6" class="gallery-image">
+  </div>
+  <div class="gallery-item">
+    <img src="image9.jpg" alt="Gallery Image 6" class="gallery-image">
+</div>
+
+      
+  </div>
+</section>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+<section id="Contact" class="contact-section">
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Social Media Links -->
+      <div class="footer-social-media">
+        <a href="https://facebook.com/mssclub" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/mssclub" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/mssmjcet?igsh=MXg4cXZnN2ZsZ3oweg==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/microsoft-student-society/mycompany/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      </div>
+  
+      <!-- Contact Information -->
+      <div class="footer-contact">
+        <p>Email: <a href="mailto:mss@mjcollege.ac.in.org">mss@mjcollege.ac.in</a></p>
+        <p>Phone: +91 7993149226</p>
+      </div>
+  
+      <!-- Copyright Information -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 MSS Club. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</section>
+
+
+</html>
